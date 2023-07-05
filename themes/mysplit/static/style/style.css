@@ -62,7 +62,7 @@ ul.links li {
 
 ul.links li a {
     padding: 5px 5px;
-    color: #ccc;
+    color: #acc;
     display: block;
 }
 
@@ -114,9 +114,9 @@ ul.links li a:active {
     }
 }
 
-
 /* Media query for mobile devices */
-@media screen and (max-width: 768px) {
+
+@media only screen and (max-width: 800px) {
     body {
         flex-direction: column;
     }
@@ -125,5 +125,9 @@ ul.links li a:active {
     .right {
         flex: 100%;
         /* take up 100% of the width on mobile */
+    }
+
+    .content {
+        padding: 10px;
     }
 }
