@@ -27,10 +27,10 @@ bio = "I write software. I take pictures. I tinker with radios and antennas. I m
 [extra.lists]
 links = [
   {url = "https://github.com/swilcox", text = "github", icon="fa-brands fa-github"},
-  {url = "https://qrz.com/kk4sw", text = "qrz", icon="fa fa-radio"},
-  {url = "https://linkedin.com", text = "linkedin", icon="fa-brands fa-linkedin"},
+  {url = "https://www.qrz.com/db/KK4SW", text = "qrz", icon="fa fa-radio"},
+  {url = "https://www.linkedin.com/in/scwilcox/", text = "linkedin", icon="fa-brands fa-linkedin"},
   {url = "https://twitter.com/swilcox", text = "twitter", icon="fa-brands fa-twitter"},
-  {url = "https://facebook.com/", text = "facebook", icon="fa-brands fa-facebook"},
-  {url = "https://instagram.com/", text = "instagram", icon="fa-brands fa-instagram"}
+  {url = "https://facebook.com/scwilcox/", text = "facebook", icon="fa-brands fa-facebook"},
+  {url = "https://www.instagram.com/scwilcox/", text = "instagram", icon="fa-brands fa-instagram"}
 ]
 
