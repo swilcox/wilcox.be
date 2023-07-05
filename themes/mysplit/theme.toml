@@ -1,0 +1,12 @@
+name = "mysplit"
+description = "Another single split page theme"
+license = ""
+homepage = "https://github.com/swilcox/wilcox.be"
+min_version = "0.15.0"
+demo = "https://wilcox.be"
+created=2023-07-04
+updated=2023-07-04
+
+[author]
+name = "Steven Wilcox"
+homepage = "https://github.com/swilcox"

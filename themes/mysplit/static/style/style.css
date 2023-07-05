@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Lato:wght@300;400&family=Nothing+You+Could+Do&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    background-color: #000;
+    color: #aaa;
+}
+
+/* left side image column */
+.left {
+    flex: 50%;
+    /* take up half of the width */
+    background: url('/images/background.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0;
+    /* Start as transparent */
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    /* Animation name, duration, timing function, iteration count, fill mode */
+}
+
+.title {
+    font-family: 'Nothing You Could Do';
+    color: #fff;
+}
+
+.hangeul {
+    font-family: 'Gamja Flower';
+    font-size: larger;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+ul.links {
+    list-style: none;
+    padding-inline-start: 0px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+ul.links li {
+    padding: 0;
+    margin: 0;
+    inset: 0;
+    white-space: nowrap;
+}
+
+ul.links li a {
+    padding: 5px 5px;
+    color: #ccc;
+    display: block;
+}
+
+ul.links li a:link {
+    text-decoration: none;
+}
+
+ul.links li a:visited {
+    text-decoration: none;
+}
+
+ul.links li a:hover {
+    text-decoration: none;
+    background-color: #222;
+}
+
+ul.links li a:active {
+    text-decoration: none;
+}
+
+
+/* right side text column */
+.right {
+    flex: 50%;
+    /* take up the other half of the width */
+    padding: 20px;
+    overflow-y: auto;
+    /* add scrollbar if content overflows */
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 640px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 80px;
+}
+
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        flex: 100%;
+        /* take up 100% of the width on mobile */
+    }
+}

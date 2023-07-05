@@ -1,0 +1,36 @@
+# The URL the site will be built for
+base_url = "https://wilcox.be"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "mysplit"
+
+title = "Steven Wilcox"
+[markdown]
+# Whether to do syntax highlighting
+
+# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+author = "Steven Wilcox"
+
+[extra.content]
+tagline = "스티븐 윌콕스 - 덧없는 그림자"
+bio = "I write software. I take pictures. I tinker with radios and antennas. I make stuff out of wood. Occasionally, I might do one of those well."
+
+[extra.lists]
+links = [
+  {url = "https://github.com/swilcox", text = "github", icon="fa-brands fa-github"},
+  {url = "https://qrz.com/kk4sw", text = "qrz", icon="fa fa-radio"},
+  {url = "https://linkedin.com", text = "linkedin", icon="fa-brands fa-linkedin"},
+  {url = "https://twitter.com/swilcox", text = "twitter", icon="fa-brands fa-twitter"},
+  {url = "https://facebook.com/", text = "facebook", icon="fa-brands fa-facebook"},
+  {url = "https://instagram.com/", text = "instagram", icon="fa-brands fa-instagram"}
+]
+

@@ -1,0 +1,39 @@
+{% import "macros/lists.html" as lists -%}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ get_url(path='style/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% block title %}
+    <title>{{ config.title }}</title>
+    {% endblock title %}
+</head>
+
+<body>
+    <div class="left">
+        <!-- image will be displayed via CSS background property -->
+    </div>
+    <div class="right">
+        <div class="content">
+            {% block content %}
+            <h1 class="title">Steven Wilcox</h1>
+            <p class="hangeul">{{ config.extra.content.tagline }}</p>
+            <h2 class="about">About</h2>
+            <p>{{ config.extra.content.bio }}</p>
+            <!-- more text can go here -->
+            {% block links %}
+            <div class="split-links">
+                {{ lists::links() }}
+            </div><!--./links-->
+            {% endblock links %}
+            {% endblock content %}
+        </div>
+    </div>
+</body>
+
+</html>
