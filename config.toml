@@ -22,15 +22,14 @@ author = "Steven Wilcox"
 
 [extra.content]
 tagline = "스티븐 윌콕스 - 덧없는 그림자"
-bio = "I write software. I take pictures. I tinker with radios and antennas. I make stuff out of wood. Occasionally, I might do one of those well."
+bio = "I write software / take pictures / tinker with radios and antennas / make stuff out of wood. Occasionally, I might do one of those well."
 
 [extra.lists]
 links = [
   {url = "https://github.com/swilcox", text = "github", icon="fa-brands fa-github"},
   {url = "https://www.qrz.com/db/KK4SW", text = "qrz", icon="fa fa-radio"},
   {url = "https://www.linkedin.com/in/scwilcox/", text = "linkedin", icon="fa-brands fa-linkedin"},
-  {url = "https://twitter.com/swilcox", text = "twitter", icon="fa-brands fa-twitter"},
+  {url = "https://twitter.com/swilcox", text = "X / twitter", icon="fa-brands fa-x-twitter"},
   {url = "https://facebook.com/scwilcox/", text = "facebook", icon="fa-brands fa-facebook"},
   {url = "https://www.instagram.com/scwilcox/", text = "instagram", icon="fa-brands fa-instagram"}
 ]
-
