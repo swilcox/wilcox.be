@@ -21,7 +21,6 @@ author = "Steven Wilcox"
 
 [extra.content]
 eyebrow = "just a fleeting shadow"
-tagline = "스티븐 윌콕스 · 덧없는 그림자"
 call_sign = "KK4SW"
 
 [[extra.disciplines]]
@@ -55,6 +54,6 @@ label = "Photo 3"
 links = [
   {url = "https://github.com/swilcox", text = "github"},
   {url = "https://www.linkedin.com/in/scwilcox/", text = "linkedin"},
-  {url = "https://twitter.com/swilcox", text = "twitter"},
+  {url = "https://twitter.com/swilcox", text = "x"},
   {url = "https://facebook.com/scwilcox/", text = "facebook"}
 ]
