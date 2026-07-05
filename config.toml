@@ -10,26 +10,51 @@ build_search_index = false
 theme = "mysplit"
 
 title = "Steven Wilcox"
-[markdown]
-# Whether to do syntax highlighting
 
-# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+description = "Software, photographs, and radio by Steven Wilcox."
+[markdown.highlighting]
+theme = "catppuccin-mocha"
 
 [extra]
 # Put all your custom variables here
 author = "Steven Wilcox"
 
 [extra.content]
-tagline = "스티븐 윌콕스 - 덧없는 그림자"
-bio = "I write software / take pictures / tinker with radios and antennas / make stuff out of wood. Occasionally, I might do one of those well."
+eyebrow = "just a fleeting shadow"
+tagline = "스티븐 윌콕스 · 덧없는 그림자"
+call_sign = "KK4SW"
+
+[[extra.disciplines]]
+label = "software"
+korean = "코드"
+url = "https://swilcox.github.io"
+
+[[extra.disciplines]]
+label = "photographs"
+korean = "사진"
+url = "https://www.instagram.com/scwilcox/"
+
+[[extra.disciplines]]
+label = "ham radio"
+korean = "무선"
+url = "https://www.qrz.com/db/KK4SW"
+
+[[extra.hero_images]]
+image = "/images/hero-1.jpg"
+label = "Photo 1"
+
+[[extra.hero_images]]
+image = "/images/hero-2.jpg"
+label = "Photo 2"
+
+[[extra.hero_images]]
+image = "/images/hero-3.jpg"
+label = "Photo 3"
 
 [extra.lists]
 links = [
-  {url = "https://github.com/swilcox", text = "github", icon="fa-brands fa-github"},
-  {url = "https://www.qrz.com/db/KK4SW", text = "qrz", icon="fa fa-radio"},
-  {url = "https://www.linkedin.com/in/scwilcox/", text = "linkedin", icon="fa-brands fa-linkedin"},
-  {url = "https://twitter.com/swilcox", text = "twitter", icon="fa-brands fa-x-twitter"},
-  {url = "https://facebook.com/scwilcox/", text = "facebook", icon="fa-brands fa-facebook"},
-  {url = "https://www.instagram.com/scwilcox/", text = "instagram", icon="fa-brands fa-instagram"}
+  {url = "https://github.com/swilcox", text = "github"},
+  {url = "https://www.linkedin.com/in/scwilcox/", text = "linkedin"},
+  {url = "https://twitter.com/swilcox", text = "twitter"},
+  {url = "https://facebook.com/scwilcox/", text = "facebook"}
 ]

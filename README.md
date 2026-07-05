@@ -1,2 +1,2 @@
 # wilcox.be
-home page
+zola config source for wilcox.be home page
